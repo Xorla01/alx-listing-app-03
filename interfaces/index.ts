@@ -34,3 +34,11 @@ export interface PillProps {
   active?: boolean;
   onClick?: () => void;
 }
+
+export interface BookingDetails {
+  propertyName: string;
+  startDate: string;
+  totalNights: number;
+  bookingFee: number;
+  price: number;
+}
